@@ -28,7 +28,7 @@ module.exports = {
       // if your docs are in a different repo from your main project:
       docsRepo: 'matheusagnus/docs',
       // if your docs are not at the root of the repo:
-      docsDir: 'docs',
+      // docsDir: 'docs',
       // if your docs are in a specific branch (defaults to 'master'):
       docsBranch: 'master',
       // defaults to false, set to true to enable
@@ -36,6 +36,10 @@ module.exports = {
       // custom text for edit link. Defaults to "Edit this page"
       editLinkText: 'Nos ajude a melhorar esse conteúdo!',
       sidebar: {
+        '/guides/inicial/': [
+          '',
+          'acesso-via-ssh'
+        ],
         '/guides/redes/': [
           'redes',
           'roteadores',
@@ -53,26 +57,6 @@ module.exports = {
 
         ]
 
-        // {
-        //   title: 'Rede',
-        //   collapsable: false,
-        //   children: [
-        //     '/',
-        //     '/guides/Rede/Redes.md',
-        //     '/guides/Rede/Roteadores.md',
-        //     '/guides/Rede/Grupos-de-Segurança.md',
-        //     '/guides/Rede/Load-Balancers.md',
-        //     '/guides/Rede/IPs-Flutuantes.md',
-        //     '/guides/Rede/Firewalls.md'
-        //   ]
-        // }
-            // '/',
-            // ['/guides/Rede/Redes', '/Roteadores', 'Redes'],
-            // '/guides/Rede/Roteadores.md',
-            // '/guides/Rede/Grupos-de-Segurança.md',
-            // '/guides/Rede/Load-Balancers.md',
-            // '/guides/Rede/IPs-Flutuantes.md',
-            // '/guides/Rede/Firewalls.md'
 
       }
     }

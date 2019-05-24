@@ -1,13 +1,13 @@
 # Instâncias
 
-Para criar uma Instância, tenha certeza que entendeu e cumpriu os passos do Roadmap de Sucesso - Cloud Serpro anteriores:
+Para criar uma Instância, tenha certeza que entendeu e cumpriu os passos do Guia Inicial anteriores:
 
-1. Crie e Configure uma rede;
-2. Crie um roteador externo;
-3. Crie ou configure grupos de segurança;
+1. [Crie e Configure uma rede](../redes/redes.md);
+2. [Crie um roteador externo](../redes/roteadores.md);
+3. [Crie ou configure grupos de segurança](../redes/gruposDeSeguranca.md);
 4. Dispare uma Instância;
-5. Aloque um IP Flutuante;
-6. Acesso via SSH.
+5. [Aloque um IP Flutuante](../redes/ipsFlutuantes.md);
+6. [Acesso via SSH](../inicial/acesso-via-ssh.md);
 
 ## Disparando uma Instância
 

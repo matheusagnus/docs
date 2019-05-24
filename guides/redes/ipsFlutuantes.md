@@ -2,7 +2,12 @@
 
 Toda Instância associada a uma rede recebe um IP Fixo vindo de sua própria rede, que prove a comunicação com instâncias na mesma rede. Para que ela acesse ou seja acessada por outras redes ou a internet, é importante que ela tenha um IP Flutuante. Para a associação de IP Flutuante, tenha certeza que você cumpriu os passos anteriores.
 
-
+1. [Crie e Configure uma rede](../redes/redes.md);
+2. [Crie um roteador externo](../redes/roteadores.md);
+3. [Crie ou configure grupos de segurança](../redes/gruposDeSeguranca.md);
+4. [Dispare uma Instância](../computacao/instancias.md);
+5. Aloque um IP Flutuante;
+6. [Acesso via SSH](../inicial/acesso-via-ssh.md);
 
 ## Alocando IP Flutuante
 
