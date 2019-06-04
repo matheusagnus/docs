@@ -38,6 +38,8 @@ module.exports = {
       sidebar: {
         '/guides/inicial/': [
           '',
+          'criando-contexto',
+          'disparando-instancia',
           'acesso-via-ssh'
         ],
         '/guides/redes/': [
