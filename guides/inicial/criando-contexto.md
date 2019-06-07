@@ -20,15 +20,15 @@ Como citado antes, o contexto se trata de todo o ecossistema ligado àquela inst
 
 No painel do Horizon, em **Rede**, temos a opção de **Criar Rede** dentro do menu **Redes**. Essa opção nos traz os seguintes campos referentes ao nome descritivos da rede, sua sub-rede e os detalhes da sub-rede. Preenchemos da seguinte forma:
 
-(img-rede1)
+![Criando Rede](../../img/guides/rede1.png)
 
 Perceba que os campos de **“Ativar Estado Administrativo”** e **“Criar Sub-Rede”** foram selecionados, isso se dá pelo fato que poderemos ter mais liberdade para expandir ou escalar nosso projeto quando se falar de rede. Já teremos uma sub-rede base e também a possibilidade de configuração do Estado Administrativo. 
 
-(img-rede2)
+![Criando Rede](../../img/guides/rede2.png)
 
 O endereço da rede deve ser gerado no formato Classless Inter-Domain Routing (CIDR), deve ser observado também se não há nenhuma rede com esse mesmo endereço de IP para evitar possíveis conflitos. O IP de Gateway, se for usar o padrão, pode deixar em branco como eu fiz.
 
-(img-rede3)
+![Criando Rede](../../img/guides/rede3.png)
 
 Tenha certeza que o **“Habilitar DHCP”** estará marcado nesse passo e também confira se o já tem um servidor de DNS cadastrado, caso não, use o IP de DNS do Serpro como fiz. 
 
@@ -38,17 +38,19 @@ Nossa rede agora está criada com uma sub-rede já cadastrada, um servidor de no
 
 Para a criação do roteador, basta procurar no painel do Horizon, em **Redes** a funcionalidade de **Roteadores**, para enfim criar o nosso roteador.
 
-(img-router1)
+![Criando Roteador](../../img/guides/router.png)
 
 Lembre-se sempre de selecionar o **“Ativar o Estado Administrativo”** para garantir a escalabilidade do seu projeto sem antes ficar sempre se perguntando: *“Será que eu Ativei o Estado Administrativo?”* Por fim, só clicar em **“Criar Roteador”** que teremos um roteador ligado à internet, basta agora ligá-lo à nossa rede. 
 
+![Criando Roteador](../../img/guides/router2.png)
+
 Clicando no nome do nosso roteador, teremos a **“Visão Geral”** dele, as **“Interfaces”** que podem ser adicionadas e as **“Rotas Estáticas”**. Precisamos adicionar a interface de rede que acabamos de criar.
 
-(img-router2)
+![Criando Roteador](../../img/guides/router3.png)
 
 Só clicar em **“Enviar”** que estará pronto a nosso canal de comunicação com a internet. Para confirmar, acessaremos no Painel do Horizon a **“Topologia de Redes”** e podemos verificar no **“Gráfico”** se está tudo ligado e funcionando.
 
-(img-topologia)
+![Visão da Topologia](../../img/guides/topologia.png)
 
 Tudo já está pronto e configurado! Mas por segurança, todo e qualquer acesso às instâncias na Cloud Serpro é fechado. Precisamos criar regras para o grupo de segurança associado à essa rede. Em específico, queremos abrir a porta 22 para o acesso via ssh que é o escopo do nosso projeto.
 
@@ -58,17 +60,17 @@ Grupo de segurança é uma coleção de filtros de IP que funcionam como regras 
 
 No Painel do Horizon, ainda em **Rede** temos a funcionalidade de **Grupos de Segurança** que nos dá a possibilidade de **Administrar Regras** de algum grupo, ou de **Criar Grupo de Segurança** que é aonde iremos clicar agora. 
 
-(img-secgroup1)
+![Criando grupo de segurança](../../img/guides/secgroup.png)
 
 Adicionei uma **Descrição** para que pessoas que venham posteriormente criar um novo grupo, possam ver se as regras do meu grupo as atende e não criem grupos de segurança iguais ou redundantes, tendo em vista que isso ocupa espaço do nosso projeto. Por fim, vou **Criar Grupo de Segurança**.
 
 Nosso grupo de segurança ainda está vazio, nenhuma regra foi adicionada e esse é o passo que iremos realizar agora. Ao lado direito do nosso grupo, temos a opção de **Administrar Regras**. 
 
-(img-secgroup2)
+![Criando grupo de segurança](../../img/guides/secgroup2.png)
 
 Vamos então adicionar as regras que precisamos: SSH, TCP Customizada aberto para todas as portas (conexão garantida devido seu processo de conexão) e a regra de Tudo ICMP para controle de conexões pela internet. Assim garantimos o standard de um grupo de segurança. Ficamos assim então: 
 
-(img-secgroup3)
+![Criando grupo de segurança](../../img/guides/secgroup3.png)
 
 Agora o contexto está criado! Nesse cenário podemos fazer diversos testes e provisionamentos em uma instância, entendemos também sobre a questão de segurança do nosso projeto, quais as possibilidades de uso de uma rede e de um roteador. Agora o próximo passo é o [Disparo de uma Instância](./disparando-instancia.md).
 
