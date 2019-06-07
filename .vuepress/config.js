@@ -56,8 +56,11 @@ module.exports = {
           'imagens',
           'paresDeChave',
           'gruposDeServidores'
-
-        ]
+        ],
+      '/guides/volumes/': [
+        'criar-volume',
+        'anexar-volume'
+      ]
 
 
       }
