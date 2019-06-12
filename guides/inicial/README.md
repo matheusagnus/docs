@@ -1,11 +1,13 @@
-<!-- # Guia Inicial
+## Guias a Partir de Exemplos
 
-Muito se tem visto sobre como fazer as coisas com o Horizon, mas pouco se tem falado sobre a aderência do Usuário se falarmos de Cloud Horizon como um produto.
+Como primeiros passos de IaaS, buscamos sempre entender alguns passos que serão tratados nesse Guia. Aqui temos o intuito de disparar uma instância e de acessá-la via ssh. Esses passos abrem espaço para vários provisionamentos de serviços que possam vir a seguir no nosso projeto.
 
-A documentação e os exemplos encontrados na internet vão totalmente contra a teoria de experiência de usuário que o Serpro busca emplacar em todos os seus produtos. Visando isso, a melhor alternativa seria guiar o usuário (no caso um cliente de governo) a partir de exemplos práticos.
+Entenda melhor sobre como trabalhar com as nossas funcionalidades e recursos a partir desses tópicos:
 
-## Guias a partir de exemplos
+1. [Crie e Configure uma rede](../redes/redes.md);
+2. [Crie um roteador externo](../redes/roteadores.md);
+3. [Crie ou configure grupos de segurança](../redes/gruposDeSeguranca.md);
+4. [Dispare uma Instância](../computacao/instancias.md);
+5. [Aloque um IP Flutuante](../redes/ipsFlutuantes.md);
+6. [Acesso via SSH](../inicial/acesso-via-ssh.md);
 
-Aqui você encontra vários casos para guiar-se no Horizon a partir de exemplos:
-
-[Do Contexto ao Disparo de uma Instância](../inicial/do-contexto-ao-disparo-de-uma-instancia.md) -->

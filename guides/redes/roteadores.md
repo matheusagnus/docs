@@ -1,13 +1,15 @@
 # Roteadores
 
-Para que as redes possam se comunicar, é necessário criar um roteador e conectá-lo a rede do seu projeto. Roteador é o segundo passo do Roadmap de Sucesso da Cloud Serpro: 
+Para que as redes possam se comunicar, é necessário criar um roteador e conectá-lo a rede do seu projeto. Esse roteador pode estar conectado a [**Rede**](../redes/redes.md) das suas instâncias, a outra rede, a internet ou a qualquer combinação dessas possibilidades.
+
+<!-- Roteador é o segundo passo do Roadmap de Sucesso da Cloud Serpro: 
 
 1. [Crie e Configure uma rede](../redes/redes.md);
 2. Crie um roteador externo;
 3. [Crie ou configure grupos de segurança](../redes/gruposDeSeguranca.md);
 4. [Dispare uma Instância](../computacao/instancias.md);
 5. [Aloque um IP Flutuante](../redes/ipsFlutuantes.md);
-6. [Acesso via SSH](../inicial/acesso-via-ssh.md);
+6. [Acesso via SSH](../inicial/acesso-via-ssh.md); -->
 
 ## Criando um Roteador
 

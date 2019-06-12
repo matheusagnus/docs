@@ -46,3 +46,5 @@ Acompanhe nas imagens a seguir, caso tenha dúvida.
 ![Detalhes do Linux](../../img/guides/linux.png)
 
 ![Detalhes do Linux](../../img/guides/linux2.png)
+
+

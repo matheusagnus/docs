@@ -1,13 +1,15 @@
 # Redes
 
-A criação de rede é a primeira parte do Roadmap de Sucesso - Cloud Serpro:
+<!-- A criação de rede é a primeira parte do Roadmap de Sucesso - Cloud Serpro:
 
 1. Crie e Configure uma rede;
 2. [Crie um roteador externo](../redes/roteadores.md);
 3. [Crie ou configure grupos de segurança](../redes/gruposDeSeguranca.md);
 4. [Dispare uma Instância](../computacao/instancias.md);
 5. [Aloque um IP Flutuante](../redes/ipsFlutuantes.md);
-6. [Acesso via SSH](../inicial/acesso-via-ssh.md);
+6. [Acesso via SSH](../inicial/acesso-via-ssh.md); -->
+
+Com uma Rede nos podemos interligar várias instâncias para que as mesmas dentro dessa rede possam comunicar-se apenas entre si, compartilhar informações com outras redes através de um [**Roteador**](../redes/roteadores.md), até mesmo conectar-se à internet usando também um roteador ou qualquer combinação destas.
 
 ## Criando sua Rede
 
@@ -17,7 +19,7 @@ A criação de rede é a primeira parte do Roadmap de Sucesso - Cloud Serpro:
 
 ![Criar Rede Cloud Serpro](../../img/redes/criar-rede.png)
 
-* Na aba **Rede** temos a possibilidade de atribuir um nome para a Rede que será criada, além disso devemos também selecionar a opção de **Criar uma Sub-Rede** para permitir que os administradores dividam a sua rede privada em segmentos virtuais e que será criada na etapa a seguir.
+* Na aba **Rede** temos a possibilidade de atribuir um nome para a Rede que será criada, além disso devemos também selecionar a opção de **Criar uma Sub-Rede** para permitir que os administradores dividam a sua rede privada em segmentos virtuais e que serão criados na etapa a seguir.
 
 * Depois de definir o nome e selecionar a opção **Criar Sub-Rede**, clique em **Próximo**.
 

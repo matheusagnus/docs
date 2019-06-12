@@ -10,6 +10,8 @@ Aqui temos linhas gerais que tratam sobre os guiais iniciais para uma melhor exp
 * [Dispare uma Instância](../guides/computacao/instancias.md);
 * [Aloque um IP Flutuante](../guides/redes/ipsFlutuantes.md);
 * [Acesso via SSH](../guides/inicial/acesso-via-ssh.md);
+* [Criar Volume](../guides/volumes/criar-volume);
+* [Anexar Volume](../guides/volumes/criar-volume);
 
 ## Guias a partir de exemplos
 

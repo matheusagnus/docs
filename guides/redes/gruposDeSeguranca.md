@@ -2,12 +2,12 @@
 
 Por padrão, todas as conexões de entrada e saída das suas instâncias estarão bloqueadas. Para que elas acessem ou sejam acessadas por uma rede externa, precisamos criar ou configurar o grupos de segurança do nosso projeto.
 
-1. [Crie e Configure uma rede](../redes/redes.md);
+<!-- 1. [Crie e Configure uma rede](../redes/redes.md);
 2. [Crie um roteador externo](../redes/roteadores.md);
 3. Crie ou configure grupos de segurança;
 4. [Dispare uma Instância](../computacao/instancias.md);
 5. [Aloque um IP Flutuante](../redes/ipsFlutuantes.md);
-6. [Acesso via SSH](../inicial/acesso-via-ssh.md);
+6. [Acesso via SSH](../inicial/acesso-via-ssh.md); -->
 
 ## Criando um Grupo de Segurança
 
@@ -33,4 +33,6 @@ Por fim basta apenas clicar em **Criar Grupo de Segurança** para finalizar o pr
 
 > Lembre-se que para realizar o acesso remoto ao seu projeto, a **regra de SSH deve estar adicionada**. Essa que irá abrir para nós a porta 22.
 
-Seu Grupo de Segurança agora está totalmente usual, o próximo passo do Roadmap de Sucesso da Cloud Serpro é o **Disparo de Instância**.
+Seu Grupo de Segurança agora está totalmente usual.
+
+<!-- , o próximo passo do Roadmap de Sucesso da Cloud Serpro é o **Disparo de Instância**. -->
