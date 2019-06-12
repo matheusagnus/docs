@@ -1,7 +1,7 @@
 // Entry file of configuration, can also be yml or toml.
 
 module.exports = {
-    title: 'Cloud Serpro Docs',
+    title: 'ICS Docs',
     description: 'Just playing around',
     themeConfig: {
       nav: [
@@ -15,9 +15,9 @@ module.exports = {
           { text: 'Orchestration', link: '/guides/orchestration/'}
 
         ]},
-        { text: 'Nuvem', link: 'https://cloud.serpro.gov.br/' },
+        { text: 'Cloud', link: 'https://cloud.serpro.gov.br/' },
       ],
-      // Assumes GitHub. Can also be a full GitLab url.
+      // Liga direto ao repo git publico (github, gitlab)
       repo: 'matheusagnus/docs',
       // Customising the header label
       // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
@@ -36,11 +36,15 @@ module.exports = {
       // custom text for edit link. Defaults to "Edit this page"
       editLinkText: 'Nos ajude a melhorar esse conteúdo!',
       sidebar: {
+        // '/guides/': [
+        //   ''
+        // ],
         '/guides/inicial/': [
           '',
           'criando-contexto',
           'disparando-instancia',
-          'acesso-via-ssh'
+          'acesso-via-ssh',
+          'criar-snapshot'
         ],
         '/guides/redes/': [
           'redes',
@@ -51,11 +55,11 @@ module.exports = {
           'firewalls'
         ],
         '/guides/computacao/': [
-          'visaoGeral',
+          '',
           'instancias',
           'imagens',
-          'paresDeChave',
-          'gruposDeServidores'
+          'pares-de-chave',
+          'grupos-de-servidores'
         ],
       '/guides/volumes/': [
         'criar-volume',

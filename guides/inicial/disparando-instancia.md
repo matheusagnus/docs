@@ -1,10 +1,12 @@
-# Instância
+# Disparando Instância
 
-Na parte anterior falamos sobre o contexto para a criação base de uma instância. O contexto é tudo aquilo que é necessário para que uma Instância exista e funcione para o seu projeto, como rede operando em comunicação com roteadores que já estão conectados ou à outras redes ou à internet e uma coleção de filtros de ips que serão para nós as regras de firewall. 
+Na parte anterior falamos sobre o contexto para a criação base de uma instância. 
 
-Com o contexto criado e pronto para o uso, um dos grandes passos é o “Disparo de Instância” onde poderemos fazer provisionamentos reais voltados a web. Nesse caso, o nosso objetivo não é apenas disparar, é também acessar remotamente essa instância via ssh.
+> *"Quando se fala de contexto de uma instância especificam aquilo que é necessário para que uma Instância exista e funcione bem em seu projeto. Fala-se também sobre redes, roteadores e uma coleção de filtros de ips que serão para nós as regras de firewall baseados no escopo do projeto."*
 
-## Disparo de Instâncias
+Aqui falaremos sobre o disparo e também sobre alocação de [IP Flutuante](../redes/ipsFlutuantes.md) que nos permitirá o acesso externo e remoto.
+
+## Disparo
 
 No painel do Horizon temos a possibilidade de disparar uma instância indo em **“Instâncias”** no menu de **“Computação”**. Aqui podemos **“Criar Snapshot”** de uma instância existente, verificar e monitorar o Status das instâncias já criadas, dos endereços de IP (tanto endereços fixos quanto públicos), verificar o par de chaves a qual a instância responderá,  funcionalidades que dependem totalmente do escopo do seu projeto e **“Disparar Instância”** que é o que precisamos para agora.
 
