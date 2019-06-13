@@ -34,6 +34,7 @@ Os Guias Iniciais trazem a nós uma nova visão sobre como trabalhar com as func
 
 * [Guia Inicial: Acesso via SSH](../guides/inicial/acesso-via-ssh.md)
 * [Guia Inicial: Disparando Instância](../guides/inicial/README.md)
+* [Guia Inicial: Dicas sobre IPs](../guides/inicial/dicas-de-ip.md)
 
 
 

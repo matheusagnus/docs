@@ -44,7 +44,8 @@ module.exports = {
           'criando-contexto',
           'disparando-instancia',
           'acesso-via-ssh',
-          'criar-snapshot'
+          'criar-snapshot',
+          'dicas-de-ip'
         ],
         '/guides/redes/': [
           'redes',
